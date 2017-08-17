@@ -1,369 +1,41 @@
-@charset "UTF-8";
-#mainContainer, #header, #container1, table {
-  margin-left: auto;
-  margin-right: auto;
-}
-
+@import url(bootstrap.min.css);
+/* line 13, style2.scss */
 body {
-  background: #343434;
-  color: #b8ec79;
-  font-size: 20px;
+  font-family: 'Revalia', cursive;
+}
+
+/* line 17, style2.scss */
+.con {
   text-align: center;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-div {
-  box-sizing: border-box;
-}
-
-a {
-  font-weight: bold;
-  border-radius: 10px;
-  line-height: 60px;
-  text-decoration: none;
-}
-
-#mainContainer {
+/* line 21, style2.scss */
+.footer {
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  text-align: center;
+  height: 4em;
+  line-height: 4em;
+  background-color: #f5f5f5;
+  z-index: 150;
 }
 
-#header {
-  width: 100%;
-  min-height: 100px;
-  text-align: center;
-  border: 1px solid #b8ec79;
-  box-sizing: border-box;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.headerDiv {
-  width: 33.3%;
-  box-sizing: border-box;
-  text-align: center;
-  float: left;
-  line-height: 60px;
-}
-
+/* line 31, style2.scss */
 #adminNr {
-  position: fixed !important;
-  display: block;
-  right: 10px;
-  top: 0;
-  z-index: 100;
-  font-size: 14px;
-}
-
-#menuContainer {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  min-height: 80px;
-  box-sizing: border-box;
-}
-#menuContainer div {
-  width: 59%;
-  margin: auto;
-}
-
-#menu > li {
-  width: 15em;
-  float: left;
-}
-
-.ui-menu .ui-menu {
-  width: 16.3em;
-}
-
-#menu {
-  float: left;
-}
-
-.stickyMenu {
   position: fixed;
-  left: 33%;
-  top: 0;
-  z-index: 100;
+  top: 2em;
+  right: 2em;
+  font-size: .4em;
 }
 
-.container {
-  border: 1px solid #b8ec79;
-  padding: 20px;
-}
-
-#container1 {
-  padding: 20px;
-  border: 1px solid #b8ec79;
+/* line 38, style2.scss */
+.carouselContainer {
   text-align: center;
 }
 
-#container2 {
-  font-size: 17px;
-  box-sizing: border-box;
-}
-
-#formContainer {
-  margin: auto;
-  width: 460px;
-}
-
-#particular {
-  table-layout: fixed;
-}
-#particular input[type=text] {
-  width: 240px;
-}
-
-#topbar {
-  background-color: #dddddd;
-  padding: 10px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  height: 250px;
-  -webkit-box-shadow: 3px 3px 31px -3px #5d5d5d;
-  -moz-box-shadow: 3px 3px 31px -3px #5d5d5d;
-  box-shadow: 3px 3px 31px -3px #5d5d5d;
-}
-
-.btn {
-  background-color: #777777;
-  padding: 10px;
-  border: 1px solid #b8ec79;
-  border-radius: 10px;
-}
-
-#sidebar {
-  /*ten Γö╝├⌐obuz moze sie kiedys przydac*/
-  background-color: #f8f8f8;
-  border: 1px solid #b8ec79;
-  z-index: 100;
-  float: left;
-  width: 200px;
-  min-height: 620px;
-  padding-top: 50px;
-  text-align: center;
-  font-size: 18px;
-  color: #b8ec79;
-}
-
-img {
-  margin-bottom: 20px;
-}
-
-.shadow {
-  position: relative;
-  text-align: center;
-}
-.shadow:before {
-  content: '';
-  position: absolute;
-  width: 952px;
-  height: 146px;
-  -moz-box-shadow: inset 0px 0px 4px 6px #363636;
-  -webkit-box-shadow: inset 0px 0px 4px 6px #363636;
-  box-shadow: inset 0px 0px 12px 8px #363636;
-}
-
-.optionL {
-  z-index: 100;
-  font-size: 18px;
-  height: 53px;
-  border-bottom: 2px dotted #444444;
-  border-radius: 0px;
-}
-
-.usernumber {
-  text-align: center;
-  font-size: 30px;
-}
-
-.logout {
-  text-align: right;
-  position: fixed;
-  right: 50px;
-  top: 50px;
-}
-
-input[type=text], input[type=password] {
-  width: 300px;
-  background-color: #aaaaaa;
-  color: #343434;
-  border: 2px solid #ddd;
-  border-radius: 5px;
-  font-size: 20px;
-  padding: 10px;
-  box-sizing: border-box;
-  outline: none;
-  margin: 0.3em 0 0.3em 0;
-}
-input[type=text]:focus, input[type=password]:focus {
-  -webkit-box-shadow: 0 0 10px 2px #bfbfbf;
-  -moz-box-shadow: 0 0 10px 2px #bfbfbf;
-  box-shadow: 0 0 10px 2px #bfbfbf;
-  border: 2px solid #a5cda5;
-  background-color: #e9f3e9;
-  color: #428c42;
-}
-
-table {
-  width: 800px;
-  border: 1px solid #b8ec79;
-  border-spacing: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-td, th, tr {
-  border: 1px solid #b8ec79;
-  padding: 5px;
-  border-collapse: collapse;
-  text-align: right;
-}
-
-td {
-  width: 48px;
-}
-
-th {
-  text-align: center;
-  padding-top: 10px;
-}
-
-table.costs {
-  width: 800px;
-}
-
-td.left {
-  text-align: left;
-}
-td.right {
-  text-align: right;
-}
-
-.button {
-  letter-spacing: 2px;
-}
-
-input[type=submit] {
-  width: 300px;
-  padding: 15px 10px;
-  margin-top: 20px;
-  letter-spacing: 2px;
-  outline: none;
-}
-input::-webkit-input-placeholder {
-  color: #999;
-}
-input:focus::-webkit-input-placeholder {
-  color: #428C42;
-}
-input:-moz-placeholder {
-  color: #999;
-}
-input:focus:-moz-placeholder {
-  color: #428C42;
-}
-input::-moz-placeholder {
-  color: #999;
-}
-input:focus::-moz-placeholder {
-  color: #428C42;
-}
-input:-ms-input-placeholder {
-  color: #999;
-}
-input:focus:-ms-input-placeholder {
-  color: #428C42;
-}
-
-/* Firefox < 19 */
-/* Firefox > 19 */
-/* Internet Explorer 10 */
-/*slideeeeeeeeeeeeeeeeer*/
-#slider {
-  width: 720px;
-  height: 400px;
-  overflow: hidden;
-  margin: auto;
-}
-#slider .slides {
-  display: block;
-  width: 6000px;
-  height: 400px;
-  margin: 0;
-  padding: 0;
-}
-#slider .slide {
-  float: left;
-  list-style-type: none;
-  width: 720px;
-  height: 400px;
-}
-
-.slide1 {
-  background: red;
-}
-
-.slide2 {
-  background: blue;
-}
-
-.slide3 {
-  background: green;
-}
-
-.slide4 {
-  background: purple;
-}
-
-.slide5 {
-  background: lightgoldenrodyellow;
-}
-
-.scroll {
-  width: 64px;
-  height: 64px;
-  text-decoration: none;
-  position: fixed;
-  bottom: 50px;
-  display: none;
-  font-size: 70px;
-  box-sizing: border-box;
-}
-.scroll span.ui-button-text {
-  padding-left: 0.256em !important;
-  padding-top: 0.05em !important;
-  z-index: 9999;
-}
-
-#scrollup {
-  right: 50px;
-}
-
-#scrolldown {
-  right: 140px;
-}
-
-#footer {
-  border: 1px solid #b8ec79;
-}
-
-#shadow2 {
-  width: 720px;
-  text-align: left;
-  margin: auto;
-}
-#shadow2:before {
-  content: '';
-  position: absolute;
-  width: 720px;
-  height: 400px;
-  -moz-box-shadow: inset 0 0 4px 6px #363636;
-  -webkit-box-shadow: inset 0 0 4px 6px #363636;
-  box-shadow: inset 0 0 12px 8px #363636;
-}
-
-.alertParagraph {
-  padding-top: 30px;
+@media (min-width: 890px) {
+  /* line 43, style2.scss */
+  .carouselContainer {
+    width: 690px;
+  }
 }
