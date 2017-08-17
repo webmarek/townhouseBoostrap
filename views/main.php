@@ -11,7 +11,7 @@
     <!--these ones (above and below) are optional - we use them intechangeably, wheteher on production or on developing-->
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/style.css">
+    
 
 
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
