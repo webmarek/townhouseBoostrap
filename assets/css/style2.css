@@ -44,3 +44,9 @@ body {
 .btn {
   font-family: 'Cherry Swash', sans-serif;
 }
+
+/* line 53, style2.scss */
+img.resource {
+  height: 6em;
+  width: 8em;
+}

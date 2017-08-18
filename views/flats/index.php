@@ -9,14 +9,16 @@ require_once('assets/php/Roman.php');
 function drawTable($picture, $resource)
 {
 
-    echo "<br/><table><th colspan = 13><img src='" . ROOT_PATH . "assets/img/flats/resources/" . $picture . ".png' height='45px' width='70px'></th><tr>";
+    echo "<br/><div><img src='" . ROOT_PATH . "assets/img/flats/resources/" . $picture . ".png' class='resource img-thumbnail'></div><table class='table'><thead><tr>";
 
-    echo "<td>miesiąc</td>";
+    echo "<th>miesiąc</th>";
     $month = (string)date("n");
 
-    for ($i = 0; $i <= 11; $i++) {
+    $monthsInYear = 12;
 
-        echo "<td>" . Numbers_Roman::toNumeral($month) . "</td>";
+    for ($i = 0; $i < $monthsInYear; $i++) {
+
+        echo "<th>" . Numbers_Roman::toNumeral($month) . "</th>";
 
         if ($month <= 11) {
             $month++;
@@ -25,14 +27,14 @@ function drawTable($picture, $resource)
         }
     }
 
-    echo "</tr><tr>";
+    echo "</tr></thead><tbody><tr>";
 
-    echo "<td>stan</td>";
-    for ($i = 0; $i <= 11; $i++) {
-        echo "<td>" . $resource[$i] . "</td>";
+    echo "<th scope='row'>stan</th>";
+    for ($i = 0; $i < $monthsInYear; $i++) {
+        echo "<th>" . $resource[$i] . "</th>";
     }
 
-    echo "</tr></table>";
+    echo "</tr></tbody></table>";
 }
 
 ?>
@@ -86,7 +88,8 @@ function drawTable($picture, $resource)
 
     <h3 id="calculations"><b> ۩ OBLICZENIA ۩</b></h3>
 
-    <table class='costs'>
+    <table class='table'>
+        <tbody>
 
         <tr>
             <td class='left'><b>cena metra sześciennego ciepłej wody</b>:</td>
@@ -152,6 +155,7 @@ function drawTable($picture, $resource)
             </td>
         </tr>
 
+        </tbody>
     </table>
 
     <br>

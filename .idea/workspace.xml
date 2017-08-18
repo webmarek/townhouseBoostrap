@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c23515-a94c-44e7-a508-5e36abdcacbb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/admins/addMonthAll.js" afterPath="$PROJECT_DIR$/assets/js/admins/addMonthAll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admins/addMonthAll.php" afterPath="$PROJECT_DIR$/views/admins/addMonthAll.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style2.css" afterPath="$PROJECT_DIR$/assets/css/style2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style2.scss" afterPath="$PROJECT_DIR$/assets/css/style2.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/flats/index.php" afterPath="$PROJECT_DIR$/views/flats/index.php" />
     </list>
     <ignored path="kamienicaMVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,30 +65,12 @@
         </state>
       </content>
     </window>
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="addMonthAll.js" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/assets/js/admins/addMonthAll.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="428">
-                    <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="kamienicaMVC" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60305345">
+    <splitter split-orientation="horizontal" split-proportion="0.6683138">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
@@ -100,15 +83,39 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="addMonthAll.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="addMonthAll.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/admins/addMonthAll.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="769">
-                  <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+                <state relative-caret-position="510">
+                  <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
                   <folding>
                     <element signature="e#508#515#1#HTML" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
                     <element signature="e#3490#3497#1#HTML" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/flats/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2024">
+                  <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+                  <folding>
+                    <marker date="1503081539179" expanded="true" signature="342:699" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="346:691" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="706:734" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="710:734" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="1169:1832" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="1197:1820" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="1224:1805" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="1245:1516" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="1301:1494" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="1537:1787" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="1595:1765" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="5519:6298" ph="..." />
+                    <marker date="1503081539179" expanded="true" signature="6468:7226" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -141,8 +148,8 @@
           <file leaf-file-name="style2.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/css/style2.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="358">
-                  <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                <state relative-caret-position="738">
+                  <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -151,10 +158,10 @@
           <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/css/style2.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+                <state relative-caret-position="721">
+                  <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
                   <folding>
-                    <marker date="1503065548033" expanded="true" signature="64:82" ph="{...}" />
+                    <marker date="1503081136662" expanded="true" signature="761:793" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -189,6 +196,8 @@
       <find>--&gt;</find>
       <find>formConta</find>
       <find>hasNotYet</find>
+      <find>table</find>
+      <find>tbody</find>
     </findStrings>
     <replaceStrings>
       <replace>$brightGreem</replace>
@@ -241,7 +250,6 @@
         <option value="$USER_HOME$/Desktop/MM_JAVASCRIPT3E/MM_JAVASCRIPT3E/chapter17/console.html" />
         <option value="$PROJECT_DIR$/models/support.php" />
         <option value="$PROJECT_DIR$/assets/js/flats/index.js" />
-        <option value="$PROJECT_DIR$/views/flats/index.php" />
         <option value="$PROJECT_DIR$/pomysly.txt" />
         <option value="$PROJECT_DIR$/models/admin.php" />
         <option value="$PROJECT_DIR$/assets/js/mainJs.js" />
@@ -251,13 +259,14 @@
         <option value="$PROJECT_DIR$/views/home/index.php" />
         <option value="$PROJECT_DIR$/views/admins/index.php" />
         <option value="$PROJECT_DIR$/assets/js/users/login.js" />
-        <option value="$PROJECT_DIR$/assets/css/style2.css" />
         <option value="$PROJECT_DIR$/views/users/loginAdmin.php" />
         <option value="$PROJECT_DIR$/views/users/login.php" />
-        <option value="$PROJECT_DIR$/assets/css/style2.scss" />
         <option value="$PROJECT_DIR$/views/main.php" />
         <option value="$PROJECT_DIR$/views/admins/addMonthAll.php" />
         <option value="$PROJECT_DIR$/assets/js/admins/addMonthAll.js" />
+        <option value="$PROJECT_DIR$/assets/css/style2.css" />
+        <option value="$PROJECT_DIR$/assets/css/style2.scss" />
+        <option value="$PROJECT_DIR$/views/flats/index.php" />
       </list>
     </option>
   </component>
@@ -278,7 +287,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP for Xampp" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1590" />
     <option name="y" value="253" />
     <option name="width" value="1018" />
@@ -571,7 +580,7 @@
       <workItem from="1502905214738" duration="9833000" />
       <workItem from="1502956779310" duration="2238000" />
       <workItem from="1502959397287" duration="14820000" />
-      <workItem from="1503061413173" duration="10523000" />
+      <workItem from="1503061413173" duration="12866000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade pomyslow">
       <created>1501937843150</created>
@@ -584,10 +593,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418501000" />
+    <option name="totallyTimeSpent" value="420844000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-188" width="1936" height="1066" extended-state="7" />
+    <frame x="-1928" y="-188" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -825,14 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/flats/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/bootsrapHindu/01/01/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -909,28 +910,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <marker date="1503065548033" expanded="true" signature="64:82" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/users/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style2.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -959,10 +942,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/admins/addMonthAll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/admins/addMonthAll.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding>
             <element signature="e#508#515#1#HTML" expanded="true" />
             <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
@@ -971,11 +962,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/admins/addMonthAll.js">
+    <entry file="file://$PROJECT_DIR$/assets/css/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+        <state relative-caret-position="721">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1503081136662" expanded="true" signature="761:793" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/flats/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+          <folding>
+            <marker date="1503081539179" expanded="true" signature="342:699" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="346:691" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="706:734" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="710:734" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="1169:1832" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="1197:1820" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="1224:1805" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="1245:1516" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="1301:1494" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="1537:1787" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="1595:1765" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="5519:6298" ph="..." />
+            <marker date="1503081539179" expanded="true" signature="6468:7226" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
