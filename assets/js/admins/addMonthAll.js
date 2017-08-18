@@ -11,6 +11,8 @@ $(document).ready(function () {
 		return true;
 	});*/
 
+
+	/*
 	$("#beginAlert").dialog({
 		modal: true,
 		buttons: {
@@ -98,9 +100,9 @@ $(document).ready(function () {
 
 
 	});
+*/
 
-
-	$('#checkEach').tooltip({
+	$('#checkEach')./*tooltip({
 		show: {
 			effect: 'fadeIn',
 			delay: 500,
@@ -108,7 +110,7 @@ $(document).ready(function () {
 		},
 		hide: true
 
-	}).click(function () {
+	}).*/click(function () {
 		var $resource = $('.resource');
 
 		$resource.each(function () {

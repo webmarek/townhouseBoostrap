@@ -1,7 +1,7 @@
 @import url(bootstrap.min.css);
 /* line 13, style2.scss */
 body {
-  font-family: 'Revalia', cursive;
+  font-family: 'Cherry Swash', sans-serif;
 }
 
 /* line 17, style2.scss */
@@ -39,4 +39,8 @@ body {
   .carouselContainer {
     width: 690px;
   }
+}
+/* line 49, style2.scss */
+.btn {
+  font-family: 'Cherry Swash', sans-serif;
 }

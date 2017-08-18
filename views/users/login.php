@@ -20,15 +20,15 @@
                                 <label for="flat">Nr mieszkania/login</label>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="flatNr" id="flat" />
+                                <input type="text" name="flatNr" id="flat"/>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <label for="pass">Nr mieszkania/login</label>
+                                <label for="pass">Hasło</label>
                             </div>
                             <div class="col-md-6">
-                                <input type="password" name="password" id="pass" />
+                                <input type="password" name="password" id="pass"/>
                             </div>
                         </div>
 

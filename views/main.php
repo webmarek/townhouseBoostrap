@@ -11,7 +11,7 @@
     <!--these ones (above and below) are optional - we use them intechangeably, wheteher on production or on developing-->
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/__reset.css">
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Cherry+Swash&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/style2.css">
 
 </head>
@@ -76,6 +76,8 @@
 
     <div class="container con">
 
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
         <?php /*Messages::display(); */ ?>
         <?php require($view); ?>
 
@@ -89,7 +91,7 @@
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="<?php echo ROOT_PATH; ?>assets/js/mainJs.js"></script>
