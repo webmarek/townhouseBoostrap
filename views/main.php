@@ -31,7 +31,7 @@
         </button>
 
 
-        <a href="<?php echo ROOT_URL ?>" class="btnJqUi navbar-brand">Kamienica</a>
+        <a href="<?php echo ROOT_URL ?>" class=" navbar-brand">Kamienica</a>
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -44,25 +44,25 @@
                     </li>
 
                     <li class="nav-item ">
-                        <a href="<?php echo ROOT_URL; ?>users/logout" class="btnJqUi nav-link">Wyloguj</a>
+                        <a href="<?php echo ROOT_URL; ?>users/logout" class=" nav-link">Wyloguj</a>
                     </li>
 
                 <?php elseif (isset($_SESSION['is_logged_in_admin'])) : ?>
                     <div id="adminNr">Witaj, Administratorze nr <?php echo $_SESSION['user_data']['user']; ?></div>
 
                     <li class="nav-item">
-                        <a href="<?php echo ROOT_URL; ?>admins" class="btnJqUi nav-link">panel administratora</a>
+                        <a href="<?php echo ROOT_URL; ?>admins" class=" nav-link">panel administratora</a>
                     </li>
 
                     <li class="nav-item ">
-                        <a href="<?php echo ROOT_URL; ?>users/logout" class="btnJqUi nav-link">Wyloguj</a>
+                        <a href="<?php echo ROOT_URL; ?>users/logout" class=" nav-link">Wyloguj</a>
                     </li>
 
                 <?php else : ?>
 
 
                     <li class="nav-item ">
-                        <a href="<?php echo ROOT_URL; ?>users/login" class="btnJqUi nav-link" id="signIn">Zaloguj</a>
+                        <a href="<?php echo ROOT_URL; ?>users/login" class=" nav-link" id="signIn">Zaloguj</a>
                     </li>
 
                 <?php endif; ?>

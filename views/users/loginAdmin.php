@@ -1,13 +1,12 @@
 <div id="container2">
-    <div id="loginContainer">
+
         <div>
-            <h3 class="panel-title">Formularz logowania Administratora</h3>
+            <h5 class="panel-title">Formularz logowania Administratora</h5>
         </div>
 
         <div id="formContainer">
             <form method="post" action="<?php $_SERVER['PHP_SELF']; ?>" id="signInForm">
 
-                <?php Messages::display(); ?>
 
                 <div>
                     <input type="text" name="adminNr" id="login" placeholder="Nr Administratora"/>
@@ -23,7 +22,7 @@
 
             </form>
         </div>
-    </div>
+
 
     <div id="clue"></div>
 

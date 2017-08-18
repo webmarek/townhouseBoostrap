@@ -7,9 +7,10 @@ body {
 /* line 17, style2.scss */
 .con {
   text-align: center;
+  margin: 20px auto;
 }
 
-/* line 21, style2.scss */
+/* line 22, style2.scss */
 .footer {
   position: fixed;
   bottom: 0;
@@ -20,7 +21,7 @@ body {
   z-index: 150;
 }
 
-/* line 31, style2.scss */
+/* line 32, style2.scss */
 #adminNr {
   position: fixed;
   top: 2em;
@@ -28,13 +29,13 @@ body {
   font-size: .4em;
 }
 
-/* line 38, style2.scss */
+/* line 39, style2.scss */
 .carouselContainer {
   text-align: center;
 }
 
 @media (min-width: 890px) {
-  /* line 43, style2.scss */
+  /* line 44, style2.scss */
   .carouselContainer {
     width: 690px;
   }
