@@ -83,6 +83,8 @@
 
     </div>
 
+    <div id="fill"></div>
+
     <footer class="footer">
         <div class="container"><span class="text-muted">2017 &copy; Marek Kamiński</span> <a href="mailto:marekkaminski26@gmail.com" class="d-block float-right">kontakt</a></div>
     </footer>

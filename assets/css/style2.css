@@ -5,12 +5,17 @@ body {
 }
 
 /* line 17, style2.scss */
+#fill {
+  height: 5em;
+}
+
+/* line 21, style2.scss */
 .con {
   text-align: center;
   margin: 20px auto;
 }
 
-/* line 22, style2.scss */
+/* line 26, style2.scss */
 .footer {
   position: fixed;
   bottom: 0;
@@ -19,9 +24,10 @@ body {
   line-height: 4em;
   background-color: #f5f5f5;
   z-index: 150;
+  margin-top: 4em;
 }
 
-/* line 32, style2.scss */
+/* line 37, style2.scss */
 #adminNr {
   position: fixed;
   top: 2em;
@@ -29,24 +35,42 @@ body {
   font-size: .4em;
 }
 
-/* line 39, style2.scss */
+/* line 44, style2.scss */
 .carouselContainer {
   text-align: center;
 }
 
 @media (min-width: 890px) {
-  /* line 44, style2.scss */
+  /* line 49, style2.scss */
   .carouselContainer {
     width: 690px;
   }
 }
-/* line 49, style2.scss */
+/* line 54, style2.scss */
 .btn {
   font-family: 'Cherry Swash', sans-serif;
 }
 
-/* line 53, style2.scss */
+/* line 58, style2.scss */
 img.resource {
   height: 6em;
   width: 8em;
+  margin-bottom: 1em;
+}
+
+/* line 64, style2.scss */
+.dropdown {
+  width: 16em;
+  display: inline-block;
+}
+/* line 67, style2.scss */
+.dropdown div, .dropdown a, .dropdown button {
+  width: 16em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 74, style2.scss */
+a {
+  text-decoration: none;
 }

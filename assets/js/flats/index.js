@@ -6,7 +6,7 @@
 
 $(document).ready(function () {
 
-	var $divMenu = $('#divMenu');
+/*	var $divMenu = $('#divMenu');
 
 	$("#menu").menu({
 		position: {
@@ -69,7 +69,7 @@ $(document).ready(function () {
 		else {
 			$scrolldown.fadeOut(200);
 		}
-	});
+	});*/
 
 
 	$('#scrollup').on('click', function (e) {
@@ -88,6 +88,6 @@ $(document).ready(function () {
 	});
 
 
-	stickyNav();
+	/*stickyNav();*/
 
 });
