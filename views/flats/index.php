@@ -9,7 +9,7 @@ require_once('assets/php/Roman.php');
 function drawTable($picture, $resource)
 {
 
-    echo "<br/><div><img src='" . ROOT_PATH . "assets/img/flats/resources/" . $picture . ".png' class='resource img-thumbnail'></div><table class='table'><thead><tr>";
+    echo "<br/><div><img src='" . ROOT_PATH . "assets/img/flats/resources/" . $picture . ".png' class='resource img-thumbnail'></div><div class='tableContainer'><table class='table'><thead><tr>";
 
     echo "<th>miesiąc</th>";
     $month = (string)date("n");
@@ -34,20 +34,21 @@ function drawTable($picture, $resource)
         echo "<th>" . $resource[$i] . "</th>";
     }
 
-    echo "</tr></tbody></table>";
+    echo "</tr></tbody></table></div>";
 }
 
 ?>
 
 
-<a href="#" id="scrollup" class="button scroll">&circ;</a>
-<a href="#" id="scrolldown" class="button scroll">&caron;</a>
+<a href="#" id="scrollup" class="button scroll"><i class="fa fa-hand-o-up fa-2x" aria-hidden="true"></i></a>
+<a href="#" id="scrolldown" class="button scroll"><i class="fa fa-hand-o-down fa-2x" aria-hidden="true"></i></a>
 
 
-<div >
+<div>
 
     <div class="dropdown ">
-        <button class="btn btn-secondary dropdown-toggle btn-block" type="button" id="dropdownMenuMyData" data-toggle="dropdown"
+        <button class="btn btn-secondary dropdown-toggle btn-block" type="button" id="dropdownMenuMyData"
+                data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
             <a href="#myData">Moje dane</a>
         </button>
@@ -60,7 +61,8 @@ function drawTable($picture, $resource)
 
 
     <div class="dropdown ">
-        <button class="btn btn-secondary dropdown-toggle btn-block" type="button" id="dropdownMenuShame" data-toggle="dropdown"
+        <button class="btn btn-secondary dropdown-toggle btn-block" type="button" id="dropdownMenuShame"
+                data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
             <a href="#shame">Kącik wstydu</a>
         </button>
@@ -74,33 +76,13 @@ function drawTable($picture, $resource)
 </div>
 
 
-<!--<div id="menuContainer">
-
-    <div id="divMenu">
-        <ul id="menu">
-            <li><a href="#myData">moje dane</a>
-                <ul>
-                    <li><a href="#counters">stan liczników wg. miesięcy</a></li>
-                    <li><a href="#calculations">zużycie - obliczenia</a></li>
-                </ul>
-            </li>
-            <li><a href="#shame">kącik wstydu</a>
-                <ul>
-                    <li><a href="#trash">ośmiecony trawnik</a></li>
-                    <li><a href="#cart">pozostawiony wózek</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-
-</div>-->
-
-
 <div class="container">
     <br/>
 
-    <h2 id="myData">●▬▬▬▬๑ MOJE DANE ๑▬▬▬▬▬●</h2>
-    <!--<h3><b>۩ DANE NA TEMAT UŻYCIA ۩</b></h3>-->&sect;
+    <h2 id="myData"><span class="hiddenMoustache">●▬▬▬▬๑</span> MOJE DANE <span class="hiddenMoustache">๑▬▬▬▬▬●</span>
+    </h2>
+
+
     <h4 id="counters"><b>۩ STAN LICZNIKÓW WG. MIESIĘCY ۩</b></h4>
 
     <br/>
@@ -190,12 +172,14 @@ function drawTable($picture, $resource)
 
     <br>
 
-    <h2 id="shame"><b> ●▬▬▬▬๑ KĄCIK WSTYDU ๑▬▬▬▬▬● </b></h2>
-    &sect;
+    <h2 id="shame"><b><span class="hiddenMoustache">●▬▬▬▬๑</span> KĄCIK WSTYDU <span
+                    class="hiddenMoustache">๑▬▬▬▬▬●</span></b></h2>
+
 
     <h4 id="trash">۩ OŚMIECONY TRAWNIK ۩</h4>
     <br>
-    <p class="text-justify">Cras rhoncus, augue ut feugiat commodo, mauris dui vestibulum tortor, ac pharetra est ligula vitae ipsum.
+    <p class="text-justify">Cras rhoncus, augue ut feugiat commodo, mauris dui vestibulum tortor, ac pharetra est ligula
+        vitae ipsum.
         Phasellus id iaculis lectus, ac efficitur dolor. Nam aliquet porttitor est, ut lobortis nisl. Etiam augue mi,
         luctus ut finibus at, eleifend et nulla. Vestibulum luctus urna est, id ornare ex malesuada id. Nam tincidunt
         mauris a finibus aliquam. Aliquam nunc massa, rhoncus congue odio eu, luctus maximus orci. Maecenas a iaculis
@@ -203,15 +187,15 @@ function drawTable($picture, $resource)
         lobortis enim, et sodales urna rhoncus malesuada. Fusce dignissim risus ac tempus luctus. Vivamus sed pharetra
         neque. Praesent eget felis vulputate, tempus augue ut, fringilla nulla.</p>
     <br>
-    &sect;
     <br>
     <br>
-    <img src="<?php echo ROOT_URL; ?>assets/img/flats/shame/trash.jpg">
+    <img src="<?php echo ROOT_URL; ?>assets/img/flats/shame/trash.jpg" class="img-fluid img-thumbnail">
     <br>
 
     <h4 id="cart">۩ WÓZEK ۩</h4>
     <br>
-    <p class="text-justify">Proin sagittis pulvinar placerat. Integer facilisis ante quam, sit amet fringilla orci luctus vitae. Sed
+    <p class="text-justify">Proin sagittis pulvinar placerat. Integer facilisis ante quam, sit amet fringilla orci
+        luctus vitae. Sed
         convallis sapien ut velit vestibulum, ac lobortis sapien cursus. Nulla hendrerit dui nisi, nec aliquam ligula
         luctus at. Vivamus blandit sem sit amet diam scelerisque, a facilisis neque venenatis. Duis vestibulum eros id
         urna hendrerit, ut tempor lacus elementum. Aenean dignissim, nibh non volutpat tempor, urna sem sodales justo,
@@ -219,15 +203,15 @@ function drawTable($picture, $resource)
         posuere. Ut viverra sem odio. Vivamus tempus arcu vitae dictum auctor. Vestibulum mollis nisl eu bibendum
         accumsan. Quisque tincidunt nec neque nec facilisis.</p>
     <br>
-    &sect;
+
     <br>
     <br>
-    <img src="<?php echo ROOT_URL; ?>assets/img/flats/shame/cart.png">
+    <img src="<?php echo ROOT_URL; ?>assets/img/flats/shame/cart.png" class="img-fluid img-thumbnail">
     <br>
 </div>
 
 
-<script src="<?php echo ROOT_URL;  ?>assets/js/flats/index.js" type="text/javascript"></script>
+<script src="<?php echo ROOT_URL; ?>assets/js/flats/index.js" type="text/javascript"></script>
 
 
 

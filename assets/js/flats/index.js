@@ -45,7 +45,7 @@ $(document).ready(function () {
 			$divMenu.removeClass('stickyMenu');
 		}
 	}
-
+	*/
 
 	$(window).scroll(function () {
 
@@ -53,7 +53,6 @@ $(document).ready(function () {
 		var $scrollup = $('#scrollup');
 		var $scrolldown = $('#scrolldown');
 
-		stickyNav();
 
 		if ($this.scrollTop() > 300) {
 			$scrollup.fadeIn(200);
@@ -69,7 +68,7 @@ $(document).ready(function () {
 		else {
 			$scrolldown.fadeOut(200);
 		}
-	});*/
+	});
 
 
 	$('#scrollup').on('click', function (e) {

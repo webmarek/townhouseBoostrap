@@ -72,5 +72,81 @@ img.resource {
 
 /* line 74, style2.scss */
 a {
+  text-decoration: none !important;
+}
+
+/* line 78, style2.scss */
+.scroll {
+  /*width: 64px;
+  height: 64px;*/
   text-decoration: none;
+  position: fixed;
+  bottom: 5em;
+  display: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 999;
+}
+
+/* line 89, style2.scss */
+#scrollup {
+  right: 50px;
+}
+
+/* line 93, style2.scss */
+#scrolldown {
+  right: 140px;
+}
+
+/* line 97, style2.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  /* line 107, style2.scss */
+  h1 {
+    font-size: 18px;
+  }
+
+  /* line 107, style2.scss */
+  h2 {
+    font-size: 16px;
+  }
+
+  /* line 107, style2.scss */
+  h3 {
+    font-size: 14px;
+  }
+
+  /* line 107, style2.scss */
+  h4 {
+    font-size: 13px;
+  }
+
+  /* line 107, style2.scss */
+  h5 {
+    font-size: 12px;
+  }
+
+  /* line 107, style2.scss */
+  h6 {
+    font-size: 11px;
+  }
+
+  /* line 111, style2.scss */
+  table {
+    font-size: 0.7em;
+    overflow: hidden;
+  }
+
+  /* line 116, style2.scss */
+  .hiddenMoustache {
+    display: none;
+  }
+}
+/* line 121, style2.scss */
+.tableContainer {
+  overflow-x: auto;
 }

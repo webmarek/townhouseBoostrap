@@ -40,7 +40,7 @@
                 <?php if (isset($_SESSION['is_logged_in'])) : ?>
 
                     <li class="nav-item">
-                        Witaj, Mieszkańcu lokalu nr <?php echo $_SESSION['user_data']['user']; ?>
+                        <a href="#" class="nav-link">Witaj, Mieszkańcu lokalu nr <?php echo $_SESSION['user_data']['user']; ?></a>
                     </li>
 
                     <li class="nav-item ">
@@ -97,5 +97,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="<?php echo ROOT_PATH; ?>assets/js/mainJs.js"></script>
+<script src="https://use.fontawesome.com/480b5b67e9.js"></script>
 
 </html>
