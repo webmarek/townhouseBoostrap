@@ -1,14 +1,14 @@
 $(document).ready(function () {
 
-	$(":text")[0].focus();
+	/*$(":text")[0].focus();*/
 
-	$('form').submit(function () {
+	/*$('form').submit(function () {
 		var subButton = $(this).find(':submit');
 		subButton.attr('disabled', true);
 		subButton.val('...sending information...');
 	});
-
-	$('.inputInt').keydown(function (e) {
+*/
+	/*$('.inputInt').keydown(function (e) {
 // Allow: backspace, delete, tab, escape, enter and .
 		if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
 			// Allow: Ctrl/cmd+A
@@ -26,10 +26,10 @@ $(document).ready(function () {
 		if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
 			e.preventDefault();
 		}
-	});
+	});*/
 
 
-	$("#noToShowAlert").dialog({
+	/*$("#noToShowAlert").dialog({
 		autoOpen: false,
 		show: true,
 		hide: true,
@@ -41,7 +41,7 @@ $(document).ready(function () {
 		},
 		width: 600,
 		height: 400
-	});
+	});*/
 
 
 	$("#showThose").click(function (e) {
@@ -70,10 +70,10 @@ $(document).ready(function () {
 						$("#cwaterUpdate").val(returned.cwater);
 						$("#electricityUpdate").val(returned.electricity);
 					} else {
-						$("#noToShowAlert").dialog('open');
-						$("#hwaterUpdate").val('');
-						$("#cwaterUpdate").val('');
-						$("#electricityUpdate").val('');
+						$("#myModal3").modal('show');
+						$("#hwaterUpdate").val('').css('background', '#ddaaaa').attr("disabled", true);
+						$("#cwaterUpdate").val('').css('background', '#ddaaaa').attr("disabled", true);
+						$("#electricityUpdate").val('').css('background', '#ddaaaa').attr("disabled", true);
 					}
 
 				}

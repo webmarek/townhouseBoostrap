@@ -8,61 +8,82 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
 /*var_dump($viewmodel);*/
 ?>
 
-<script src="<?php echo ROOT_URL;?>assets/js/admins/editParticular.js" type="text/javascript"></script>
 
-    <div id="container2">
-        <div><a href="<?php echo ROOT_URL; ?>admins" class="button">wstecz</a></div>
+<div id="container">
+    <div class="text-left"><a href="<?php echo ROOT_URL; ?>admins" class="btn btn-secondary">wstecz</a></div>
 
-        <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>" id="form">
-            <table id="particular">
-                <tr>
-                    <td colspan="100%">wprowadź dane</td>
-                <tr>
+    <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>" id="form">
 
-                <tr>
-                    <td colspan="33%">podaj rok</td>
-                    <td colspan="67%">w formacie cyfr arabskich:<input type="text" class="inputInt" name="year" id="year"/></td>
-                <tr>
+        <div class="row">
+            <div class="col"><h4>WPROWADŹ DANE DLA WYBRANEGO MIESZKANIA</h4></div>
+        </div>
 
-                <tr>
-                    <td colspan="33%">podaj miesiac</td>
-                    <td colspan="67%">w formacie cyfr arabskich:<input type="text" class="inputInt" name="month" id="month"/></td>
-                <tr>
-
-                <tr>
-                    <td colspan=33%>podaj nr mieszkania</td>
-                    <td colspan=67%>w formacie cyfr arabskich:<input type="text" class="inputInt" name="flat" id="flat"/></td>
-                    <input type="hidden"  name="driver" value="particular"/>
-                <tr>
+        <div class="row justify-content-between">
+            <div class="col-xs-8"><label for="year">podaj rok w formacie cyfr arabskich:</label></div>
+            <div class="col-xs-3"><input type="number" class="inputInt" name="year" id="year"/></div>
+        </div>
 
 
-                <tr>
-                    <td colspan='100%'><input type="button" class="button" value="pokaż" id="showThose"></td>
-                <tr>
-
-                <tr>
-                    <td colspan='33%'>ciepla woda</td>
-                    <td colspan='33%'>zimna woda</td>
-                    <td colspan='34%'>prąd</td>
-                <tr>
-
-                <tr>
-                    <td colspan='33%'><input type="text" name="hwaterUpdate" class="inputInt" id="hwaterUpdate"></td>
-                    <td colspan='33%'><input type="text" name="cwaterUpdate" class="inputInt" id="cwaterUpdate"></td>
-                    <td colspan='34%'><input type="text" name="electricityUpdate" class="inputInt" id="electricityUpdate"></td>
-                <tr>
-
-                <tr>
-                    <td colspan='100%'><input type="submit" class="button" name="submit" value="zatwierdź poprawki"/></td>
-                <tr>
+        <div class="row justify-content-between">
+            <div class="col-xs-8"><label for="month">podaj miesiac w formacie cyfr arabskich:</label></div>
+            <div class="col-xs-3"><input type="number" class="inputInt" name="month" id="month"/></div>
+        </div>
 
 
+        <div class="row justify-content-between">
+            <div class="col-xs-8"><label for="flat">podaj nr mieszkania w formacie cyfr arabskich:</label></div>
+            <div class="col-xs-3"><input type="number" class="inputInt" name="flat" id="flat"/></div>
+            <input type="hidden" name="driver" value="particular"/>
+        </div>
+
+
+        <div class="row">
+            <div class="col"><input type="button" class="btn btn-primary btn-block" value="pokaż" id="showThose"></div>
+        </div>
+
+
+        <div class="tableContainer">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>ciepla woda</th>
+                    <th>zimna woda</th>
+                    <th>prąd</th>
+                <tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input type="text" name="hwaterUpdate" class="inputInt" id="hwaterUpdate"></td>
+                    <td><input type="text" name="cwaterUpdate" class="inputInt" id="cwaterUpdate"></td>
+                    <td><input type="text" name="electricityUpdate" class="inputInt"
+                               id="electricityUpdate"></td>
+                </tr>
+                </tbody>
             </table>
-        </form>
+        </div>
+        <!--<input type="submit" class="button" name="submit" value="zatwierdź poprawki"/>-->
+        <button type="submit" class="button btn btn-primary" name="submit">zatwierdź poprawki</button>
+    </form>
+</div>
+
+<div class="modal fade" id="myModal3">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Uwaga!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                W podanym miejscu nie ma jeszcze danych, nie ma czego edytować
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
     </div>
-
-    <div id="noToShowAlert" title="UWAGA!">
-        <p class="alertParagraph" >W podanym miejscu nie ma jeszcze danych, nie ma czego edytować</p>
-    </div>
+</div>
 
 
+<script src="<?php echo ROOT_URL; ?>assets/js/admins/editParticular.js" type="text/javascript"></script>
