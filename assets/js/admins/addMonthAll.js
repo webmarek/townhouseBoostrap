@@ -1,6 +1,10 @@
 $(document).ready(function () {
 
-    $(":text")[0].focus();
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
+    /*$(":number")[0].focus();*/
 
     // disable submit button on submit
     /*$('form').submit(function (a) {
@@ -74,50 +78,49 @@ $(document).ready(function () {
         }
     });
 */
+    var counter = 0;
+
     $('#month').blur(function () {
-        var year = $('#year').val();
-        var month = $('#month').val();
 
-        if ((year != "") && (month != "")) {
-            $.post(
-                '../models/support.php',
-                {driver: "major", year: year, month: month},
-                function (data) {
+        if (counter === 0) {
+            var year = $('#year').val();
+            var month = $('#month').val();
 
-                    var returned = JSON.parse(data);
-                    var text = "";
+            if ((year != "") && (month != "")) {
+                $.post(
+                    '../models/support.php',
+                    {driver: "major", year: year, month: month},
+                    function (data) {
 
-                    if (returned === 0) {
-                        text = "Nie ma jeszcze wpisów w podanym miesiącu danego roku";
+                        var returned = JSON.parse(data);
+                        var text = "";
 
-                        $("#afterAutoCheckResult").html(text);
-                        $('#myModal2').modal('show');
+                        if (returned === 0) {
+                            text = "Nie ma jeszcze wpisów w podanym miesiącu danego roku";
 
-                    } else {
-                        text = "uwaga, są już wpisy w podanym roku i miesiącu (ich liczba to " + returned + "), zachowaj szczególną uwagę i ostrożność";
+                            $("#afterAutoCheckResult").html(text);
+                            $('#myModal2').modal('show');
 
-                        $("#afterAutoCheckResult").html(text);
-                        $('#myModal2').modal('show');
+                        } else {
+                            text = "uwaga, są już wpisy w podanym roku i miesiącu (ich liczba to " + returned + "), zachowaj szczególną uwagę i ostrożność. Albo w sumie lepiej nacisnąć ten niebieski przycisk opatrzony napisem 'sprawdź każdy' :D";
+
+                            $("#afterAutoCheckResult").html(text);
+                            $('#myModal2').modal('show');
+                        }
                     }
-                }
-            );
+                );
+            }
         }
-
-
+        counter++;
+    }).change(function () {
+        counter = 0;
     });
+
 
 
     $('#myModal').modal('show');
 
-    $('#checkEach')./*tooltip({
-		show: {
-			effect: 'fadeIn',
-			delay: 500,
-			duration: 200
-		},
-		hide: true
-
-	}).*/click(function () {
+    $('#checkEach').click(function () {
         var $resource = $('.resource');
 
         $resource.each(function () {
@@ -136,10 +139,10 @@ $(document).ready(function () {
                     var returned = JSON.parse(data);
 
                     if (returned != 0) {
-                        $here.css('background', '#ddaaaa');
-                    } else {
-                        $here.css('background', '#ffffff');
+                        $here.css('background', '#ddaaaa').attr("disabled", true);
 
+                    } else {
+                        $here.css('background', '#ffffff').attr("disabled", false);
                     }
                 }
             );

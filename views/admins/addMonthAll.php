@@ -8,6 +8,75 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
 //var_dump($viewmodel);
 ?>
 
+
+<div id="container">
+    <div class="text-left"><a href="<?php echo ROOT_URL; ?>admins" class="btn btn-secondary">wstecz</a></div>
+
+    <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
+
+        <div class="row">
+            <div class="col"><h4>WPROWADŹ DANE DLA WSZYSTKICH</h4></div>
+        </div>
+
+        <div class="row justify-content-between">
+            <div class="col-xs-8"><label for="year">podaj rok w formacie cyfr arabskich:</label></div>
+            <div class="col-ex-3"><input type="number" class='inputInt' id="year" name="year"></div>
+        </div>
+
+        <div class="row justify-content-between">
+            <div class="col-xs-8"><label for="month">podaj miesiac w formacie cyfr arabskich:</label></div>
+            <div class="col-xs-3"><input type="number" class='inputInt' id="month" name="month"></div>
+
+        </div>
+
+        <div class="row">
+            <button type="button" id="checkEach" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="left"
+                    title="sprawdź każdą krotkę oddzielnie - zajęte już pola zmienią swój kolor tła na jasnoczerwony">
+                sprawdź każdy
+            </button>
+
+            <!--<input type="button" id="checkEach" value="sprawdź każdy" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="left"
+                   title="sprawdź każdą krotkę oddzielnie - zajęte już pola zmienią swój kolor tła na jasnoczerwony">-->
+        </div>
+
+
+        <div class="tableContainer">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>numer mieszkania</th>
+                    <th>ciepła woda</th>
+                    <th>zimna woda</th>
+                    <th>prąd</th>
+                <tr>
+                </thead>
+                <tbody>
+                <?php foreach ($viewmodel['flatNrs'] as $flat): ?>
+
+                    <tr>
+                        <th scope="row"> <?php echo $flat; ?> :</th>
+                        <td><input type='number' class='inputInt resource' data-resource='hwater'
+                                   data-flat='<?php echo $flat; ?>'
+                                   name='<?php echo "hwater", $flat; ?>'></td>
+                        <td><input type='number' class='inputInt resource' data-resource='cwater'
+                                   data-flat='<?php echo $flat; ?>'
+                                   name='<?php echo "cwater", $flat; ?>'></td>
+                        <td><input type='number' class='inputInt resource' data-resource='electricity'
+                                   data-flat='<?php echo $flat; ?>' name='<?php echo "electricity", $flat; ?>'></td>
+                    </tr>
+
+                <?php endforeach ?>
+                </tbody>
+
+
+            </table>
+        </div>
+        <input type="submit" name="submit" value="zatwierdź" class="button">
+
+    </form>
+</div>
+
+
 <div class="modal fade" id="myModal">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -26,67 +95,6 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
         </div>
     </div>
 </div>
-
-
-<div id="container2">
-    <div><a href="<?php echo ROOT_URL; ?>admins" class="button">wstecz</a></div>
-
-    <form method="POST" action="<?php $_SERVER['PHP_SELF']; ?>">
-        <table>
-            <tr>
-                <td colspan="4">wprowadź dane</td>
-            <tr>
-
-            <tr>
-                <td colspan="2">podaj rok</td>
-                <td colspan="2">w formacie cyfr arabskich:<input type="text" class='inputInt' id="year" name="year">
-                </td>
-            <tr>
-
-            <tr>
-                <td colspan="2">podaj miesiac</td>
-                <td colspan="2">w formacie cyfr arabskich:<input type="text" class='inputInt' id="month" name="month">
-                </td>
-            <tr>
-
-            <tr>
-                <td colspan="4"><input type="button" id="checkEach" value="sprawdź każdy" class="button"
-                                       title="sprawdź każdą krotkę oddzielnie - zajęte już pola zmienią swój kolor tła na jasnoczerwony">
-                </td>
-            <tr>
-
-            <tr>
-                <td>numer mieszkania</td>
-                <td>ciepła woda</td>
-                <td>zimna woda</td>
-                <td>prąd</td>
-            <tr>
-
-                <?php foreach ($viewmodel['flatNrs'] as $flat): ?>
-
-
-            <tr>
-                <td> <?php echo $flat; ?> :</td>
-                <td><input type='text' class='inputInt resource' data-resource='hwater' data-flat='<?php echo $flat; ?>'
-                           name='<?php echo "hwater", $flat; ?>'></td>
-                <td><input type='text' class='inputInt resource' data-resource='cwater' data-flat='<?php echo $flat; ?>'
-                           name='<?php echo "cwater", $flat; ?>'></td>
-                <td><input type='text' class='inputInt resource' data-resource='electricity'
-                           data-flat='<?php echo $flat; ?>' name='<?php echo "electricity", $flat; ?>'></td>
-            </tr>
-
-
-            <?php endforeach ?>
-
-        </table>
-        <input type="submit" name="submit" value="zatwierdź" class="button">
-
-    </form>
-</div>
-
-
-<div id="hasNotYet" style="margin-bottom: 20em;"><p class="alertParagraph">nie ma jeszcze wpisów w danym miesiacu danego
-        roku</p></div>
 
 <div class="modal fade" id="myModal2">
     <div class="modal-dialog" role="document">
