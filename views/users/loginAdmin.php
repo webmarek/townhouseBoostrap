@@ -59,5 +59,5 @@
     </div>
 </div>
 
-<script src="<?php echo ROOT_PATH; ?>assets/js/users/login.js">
+<script src="<?php echo ROOT_PATH; ?>assets/js_dest/users/login.js">
 </script>

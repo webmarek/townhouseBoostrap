@@ -45,4 +45,4 @@ if (isset($_SESSION['is_logged_in'])) {
 </div>
 
 
-<script src="<?php echo ROOT_PATH; ?>assets/js/home/index.js"></script>
+<script src="<?php echo ROOT_PATH; ?>assets/js_dest/home/index.js"></script>

@@ -211,7 +211,7 @@ function drawTable($picture, $resource)
 </div>
 
 
-<script src="<?php echo ROOT_URL; ?>assets/js/flats/index.js" type="text/javascript"></script>
+<script src="<?php echo ROOT_URL; ?>assets/js_dest/flats/index.js" type="text/javascript"></script>
 
 
 

@@ -117,5 +117,5 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
 
 <div id="hasAlready"></div>
 
-<script src="<?php echo ROOT_URL; ?>assets/js/admins/addMonthAll.js" type="text/javascript">
+<script src="<?php echo ROOT_URL; ?>assets/js_dest/admins/addMonthAll.js" type="text/javascript">
 </script>

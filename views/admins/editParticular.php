@@ -86,4 +86,4 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
 </div>
 
 
-<script src="<?php echo ROOT_URL; ?>assets/js/admins/editParticular.js" type="text/javascript"></script>
+<script src="<?php echo ROOT_URL; ?>assets/js_dest/admins/editParticular.js" type="text/javascript"></script>

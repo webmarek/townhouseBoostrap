@@ -96,7 +96,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-<script src="<?php echo ROOT_PATH; ?>assets/js/mainJs.js"></script>
+<script src="<?php echo ROOT_PATH; ?>assets/js_dest/mainJs.js"></script>
 <script src="https://use.fontawesome.com/480b5b67e9.js"></script>
 
 </html>
