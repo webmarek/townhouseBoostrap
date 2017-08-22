@@ -8,15 +8,7 @@ $(document).ready(function () {
 
 /*	var $divMenu = $('#divMenu');
 
-	$("#menu").menu({
-		position: {
-			my: 'center top',
-			at: 'center bottom'
-		},
-		icons: {
-			submenu: 'ui-icon-triangle-1-s'
-		}
-    });
+
 
 	var menuY = $divMenu.offset().top;
 	var menuX = $divMenu.offset().left;
@@ -56,10 +48,10 @@ $(document).ready(function () {
 
 		if ($this.scrollTop() > 300) {
 			$scrollup.fadeIn(200);
-			//console.log("fadeIn odpalony");
+
 		} else {
 			$scrollup.fadeOut(200);
-			//console.log("fadeout odpalony");
+
 		}
 
 		if (($(this).scrollTop() < ($(document).height() * 0.6)  ) || !($(this).scrollTop())) {
@@ -87,6 +79,6 @@ $(document).ready(function () {
 	});
 
 
-	/*stickyNav();*/
+
 
 });
