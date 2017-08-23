@@ -18,19 +18,19 @@ if (isset($_SESSION['is_logged_in'])) {
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img class="d-block img-fluid" src="<?php echo ROOT_PATH; ?>assets/img/home/1.jpg" alt="First slide">
+                <img src="<?php echo ROOT_PATH; ?>assets/img_dist/home/1.jpg" class="d-block img-fluid" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block img-fluid" src="<?php echo ROOT_PATH; ?>assets/img/home/2.jpg" alt="Second slide">
+                <img src="<?php echo ROOT_PATH; ?>assets/img_dist/home/2.jpg" class="d-block img-fluid" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block img-fluid" src="<?php echo ROOT_PATH; ?>assets/img/home/3.jpg" alt="Third slide">
+                <img src="<?php echo ROOT_PATH; ?>assets/img_dist/home/3.jpg" class="d-block img-fluid" alt="Third slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block img-fluid" src="<?php echo ROOT_PATH; ?>assets/img/home/4.jpg" alt="Fourth slide">
+                <img src="<?php echo ROOT_PATH; ?>assets/img_dist/home/4.jpg" class="d-block img-fluid" alt="Fourth slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block img-fluid" src="<?php echo ROOT_PATH; ?>assets/img/home/5.jpg" alt="Fifth slide">
+                <img src="<?php echo ROOT_PATH; ?>assets/img_dist/home/5.jpg" class="d-block img-fluid" alt="Fifth slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

@@ -26,7 +26,7 @@ class UserModel extends Model{
                 header('Location: '.ROOT_URL.'flats');
 
             } else {
-                Messages::setMsg('Incorrect Login or Password', 'error');
+                Messages::setMsg('Nieprawidłowy login lub hasło', 'error');
             }
         }
         return;
@@ -58,7 +58,7 @@ class UserModel extends Model{
                 header('Location: '.ROOT_URL.'admins');
 
             } else {
-                Messages::setMsg('Incorrect Login or Password', 'error');
+                Messages::setMsg('Nieprawidłowy login lub hasło', 'error');
             }
         }
 

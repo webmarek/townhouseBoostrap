@@ -1,3 +1,7 @@
+<div class="row justify-content-center alert">
+    <div class="col-md-4"><?php Messages::display(); ?></div>
+</div>
+
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formLoginModal">
     Otwórz formularz logowania Admina
 </button>

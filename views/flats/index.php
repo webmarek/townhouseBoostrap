@@ -9,7 +9,7 @@ require_once('assets/php/Roman.php');
 function drawTable($picture, $resource)
 {
 
-    echo "<br/><div><img src='" . ROOT_PATH . "assets/img/flats/resources/" . $picture . ".png' class='resource img-thumbnail'></div><div class='tableContainer'><table class='table'><thead><tr>";
+    echo "<br/><div><img src='" . ROOT_PATH . "assets/img_dist/flats/resources/" . $picture . ".png' class='resource img-thumbnail'></div><div class='tableContainer'><table class='table'><thead><tr>";
 
     echo "<th>miesiąc</th>";
     $month = (string)date("n");
@@ -189,7 +189,7 @@ function drawTable($picture, $resource)
     <br>
     <br>
     <br>
-    <img src="<?php echo ROOT_URL; ?>assets/img/flats/shame/trash.jpg" class="img-fluid img-thumbnail">
+    <img src="<?php echo ROOT_URL; ?>assets/img_dist/flats/shame/trash.jpg" class="img-fluid img-thumbnail">
     <br>
 
     <h4 id="cart">۩ WÓZEK ۩</h4>
@@ -206,7 +206,7 @@ function drawTable($picture, $resource)
 
     <br>
     <br>
-    <img src="<?php echo ROOT_URL; ?>assets/img/flats/shame/cart.png" class="img-fluid img-thumbnail">
+    <img src="<?php echo ROOT_URL; ?>assets/img_dist/flats/shame/cart.png" class="img-fluid img-thumbnail">
     <br>
 </div>
 

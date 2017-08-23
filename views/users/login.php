@@ -1,3 +1,7 @@
+<div class="row justify-content-center alertLogin">
+    <div class="col-md-4"><?php Messages::display(); ?></div>
+</div>
+
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formLoginModal">
     Otwórz formularz logowania
 </button>
@@ -15,6 +19,7 @@
                 <div id="div-forms">
 
                     <div class="modal-body">
+
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="flat">Nr mieszkania/login</label>
