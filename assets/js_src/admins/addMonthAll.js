@@ -136,13 +136,12 @@ $(document).ready(function () {
                 {driver: "minor", year: year, month: month, resource: resource, flat: flat},
                 function (data) {
 
-                    var returned = JSON.parse(data);
+                    var returned = jQuery.parseJSON(data);
 
-                    if (returned != 0) {
-                        $here.css('background', '#ddaaaa').attr("disabled", true);
-
+                    if (returned.returned_data !== null) {
+                        $here.css('background', '#ddaaaa').attr("disabled", true).val(returned.returned_data);
                     } else {
-                        $here.css('background', '#ffffff').attr("disabled", false);
+                        $here.css('background', '#ffffff').attr("disabled", false).val(null);
                     }
                 }
             );

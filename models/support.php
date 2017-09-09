@@ -25,17 +25,21 @@ class Support extends Model
         $flat = $post['flat'];
         settype($flat, "integer");
 
-         $this->query("SELECT COUNT(:resource) FROM `usage` WHERE `year`= :year AND `month` = :month AND `user` = :flat");
+         $this->query("SELECT * FROM `usage` WHERE `year`= :year AND `month` = :month AND `user` = :flat");
 
 
         $this->bind(':year', $year, PDO::PARAM_INT);
         $this->bind(':month', $month, PDO::PARAM_INT);
-        $this->bind(':resource', $resource);
+        /*$this->bind(':resource', $resource);*/
         $this->bind(':flat', $flat, PDO::PARAM_INT);
 
-        $howManyRows = $this->fetchColumn();
+        $row = $this->single();
 
-        echo $howManyRows;
+        $data = array(
+            "returned_data" => $row[$resource]
+        );
+
+        echo json_encode($data);
 
     }
 

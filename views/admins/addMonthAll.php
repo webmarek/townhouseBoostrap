@@ -20,17 +20,42 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
 
         <div class="row justify-content-between">
             <div class="col-xs-8"><label for="year">podaj rok w formacie cyfr arabskich:</label></div>
-            <div class="col-ex-3"><input type="number" class='inputInt' id="year" name="year"></div>
+            <div class="col-ex-3"><!--<input type="number" class='inputInt' id="year" name="year">-->
+                <select class='inputInt' id="year" name="year">
+                    <option value="" disabled selected>Wybierz rok</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                </select>
+            </div>
         </div>
 
         <div class="row justify-content-between">
             <div class="col-xs-8"><label for="month">podaj miesiac w formacie cyfr arabskich:</label></div>
-            <div class="col-xs-3"><input type="number" class='inputInt' id="month" name="month"></div>
+            <div class="col-xs-3"><!--<input type="number" class='inputInt' id="month" name="month">-->
+                <select class='inputInt' id="month" name="month">
+                    <option value="" disabled selected>Wybierz miesiąc</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
 
         </div>
 
         <div class="row">
-            <button type="button" id="checkEach" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="left"
+            <button type="button" id="checkEach" class="btn btn-primary btn-block" data-toggle="tooltip"
+                    data-placement="left"
                     title="sprawdź każdą krotkę oddzielnie - zajęte już pola zmienią swój kolor tła na jasnoczerwony">
                 sprawdź każdy
             </button>
