@@ -5,10 +5,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/9faa757aff9e00c41342745c2b3fc3800eaf1581/style2.scssc" afterPath="$PROJECT_DIR$/.sass-cache/9faa757aff9e00c41342745c2b3fc3800eaf1581/style2.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style2.css" afterPath="$PROJECT_DIR$/assets/css/style2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js_dest/admins/addMonthAll.js" afterPath="$PROJECT_DIR$/assets/js_dest/admins/addMonthAll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js_src/admins/addMonthAll.js" afterPath="$PROJECT_DIR$/assets/js_src/admins/addMonthAll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js_dest/mainJs.js" afterPath="$PROJECT_DIR$/assets/js_dest/mainJs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js_src/mainJs.js" afterPath="$PROJECT_DIR$/assets/js_src/mainJs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/style2.scss" afterPath="$PROJECT_DIR$/assets/scss/style2.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/support.php" afterPath="$PROJECT_DIR$/models/support.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admins/addMonthAll.php" afterPath="$PROJECT_DIR$/views/admins/addMonthAll.php" />
     </list>
     <ignored path="kamienicaMVC.iws" />
@@ -52,39 +51,21 @@
     <select />
   </component>
   <component name="DockManager">
-    <window id="1">
+    <window id="2">
       <content type="file-editors">
         <state>
-          <splitter split-orientation="horizontal" split-proportion="0.5">
-            <split-first>
-              <leaf>
-                <file leaf-file-name="addMonthAll.js" pinned="false" current-in-tab="true">
-                  <entry file="file://$PROJECT_DIR$/assets/js_src/admins/addMonthAll.js">
-                    <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="615">
-                        <caret line="143" column="91" lean-forward="false" selection-start-line="143" selection-start-column="91" selection-end-line="143" selection-end-column="91" />
-                        <folding />
-                      </state>
-                    </provider>
-                  </entry>
-                </file>
-              </leaf>
-            </split-first>
-            <split-second>
-              <leaf>
-                <file leaf-file-name="editParticular.js" pinned="false" current-in-tab="true">
-                  <entry file="file://$PROJECT_DIR$/assets/js_src/admins/editParticular.js">
-                    <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="316">
-                        <caret line="69" column="41" lean-forward="false" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
-                        <folding />
-                      </state>
-                    </provider>
-                  </entry>
-                </file>
-              </leaf>
-            </split-second>
-          </splitter>
+          <leaf>
+            <file leaf-file-name="addMonthAll.php" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/views/admins/addMonthAll.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="92">
+                    <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
         </state>
       </content>
     </window>
@@ -94,21 +75,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/style2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="23">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addMonthAll.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admins/addMonthAll.php">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2372">
-              <caret line="35" column="53" lean-forward="true" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+            <state relative-caret-position="276">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -141,8 +122,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="10" column="122" lean-forward="false" selection-start-line="10" selection-start-column="122" selection-end-line="10" selection-end-column="122" />
+            <state relative-caret-position="-391">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -151,8 +132,18 @@
       <file leaf-file-name="style2.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/scss/style2.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="116" column="22" lean-forward="true" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+            <state relative-caret-position="537">
+              <caret line="147" column="1" lean-forward="true" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainJs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js_src/mainJs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -180,7 +171,6 @@
       <find>Nr</find>
       <find>button</find>
       <find>absolute</find>
-      <find>btnJqUi</find>
       <find>exampleModal</find>
       <find>--&gt;</find>
       <find>formConta</find>
@@ -188,6 +178,8 @@
       <find>table</find>
       <find>tbody</find>
       <find>img src=</find>
+      <find>btnJqUi</find>
+      <find>admin</find>
     </findStrings>
     <replaceStrings>
       <replace>$brightGreem</replace>
@@ -206,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/MM_JAVASCRIPT3E/MM_JAVASCRIPT3E/chapter09/accordion.html" />
         <option value="$USER_HOME$/Desktop/MM_JAVASCRIPT3E/MM_JAVASCRIPT3E/chapter10/birth-date.html" />
         <option value="$PROJECT_DIR$/logowanko.php" />
         <option value="$PROJECT_DIR$/assets/js/smartmenus/jquery.smartmenus.min.js" />
@@ -252,11 +243,12 @@
         <option value="$PROJECT_DIR$/views/users/login.php" />
         <option value="$PROJECT_DIR$/views/main.php" />
         <option value="$PROJECT_DIR$/assets/css/style2.css" />
-        <option value="$PROJECT_DIR$/views/admins/addMonthAll.php" />
-        <option value="$PROJECT_DIR$/assets/scss/style2.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/models/support.php" />
         <option value="$PROJECT_DIR$/assets/js_src/admins/addMonthAll.js" />
+        <option value="$PROJECT_DIR$/views/admins/addMonthAll.php" />
+        <option value="$PROJECT_DIR$/assets/js_src/mainJs.js" />
+        <option value="$PROJECT_DIR$/assets/scss/style2.scss" />
       </list>
     </option>
   </component>
@@ -333,6 +325,12 @@
               <item name="kamienicaMVC2Bootstrap" type="b2602c69:ProjectViewProjectNode" />
               <item name="kamienicaMVC2Bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="kamienicaMVC2Bootstrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kamienicaMVC2Bootstrap" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="kamienicaMVC2Bootstrap" type="b2602c69:ProjectViewProjectNode" />
@@ -576,7 +574,7 @@
       <workItem from="1503398552450" duration="9567000" />
       <workItem from="1503419787436" duration="25472000" />
       <workItem from="1503491973487" duration="5267000" />
-      <workItem from="1504954258562" duration="13453000" />
+      <workItem from="1504954258562" duration="18943000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade pomyslow">
       <created>1501937843150</created>
@@ -589,7 +587,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="497827000" />
+    <option name="totallyTimeSpent" value="503317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -642,7 +640,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/97db96cc/61f76f1b-bdea-4299-ad54-e03bb9324f51/maropom92.uzytkownicy" />
     <entry file="file://$PROJECT_DIR$/controllers/admins.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -875,22 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admins/addMonthAll.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2372">
-          <caret line="35" column="53" lean-forward="true" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="10" column="122" lean-forward="false" selection-start-line="10" selection-start-column="122" selection-end-line="10" selection-end-column="122" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/flat.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="848">
@@ -948,10 +929,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style2.css">
+    <entry file="file://$PROJECT_DIR$/views/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="-391">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admins/addMonthAll.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js_src/mainJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -964,10 +961,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/style2.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="116" column="22" lean-forward="true" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+        <state relative-caret-position="537">
+          <caret line="147" column="1" lean-forward="true" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
           <folding />
         </state>
       </provider>

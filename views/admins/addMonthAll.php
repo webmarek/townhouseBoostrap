@@ -20,7 +20,7 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
 
         <div class="row justify-content-between">
             <div class="col-xs-8"><label for="year">podaj rok w formacie cyfr arabskich:</label></div>
-            <div class="col-ex-3"><!--<input type="number" class='inputInt' id="year" name="year">-->
+            <div class="col-ex-3">
                 <select class='inputInt' id="year" name="year">
                     <option value="" disabled selected>Wybierz rok</option>
                     <option value="2015">2015</option>
@@ -33,7 +33,7 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
 
         <div class="row justify-content-between">
             <div class="col-xs-8"><label for="month">podaj miesiac w formacie cyfr arabskich:</label></div>
-            <div class="col-xs-3"><!--<input type="number" class='inputInt' id="month" name="month">-->
+            <div class="col-xs-3">
                 <select class='inputInt' id="month" name="month">
                     <option value="" disabled selected>Wybierz miesiąc</option>
                     <option value="1">1</option>
@@ -50,7 +50,6 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
                     <option value="12">12</option>
                 </select>
             </div>
-
         </div>
 
         <div class="row">
@@ -59,9 +58,6 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
                     title="sprawdź każdą krotkę oddzielnie - zajęte już pola zmienią swój kolor tła na jasnoczerwony">
                 sprawdź każdy
             </button>
-
-            <!--<input type="button" id="checkEach" value="sprawdź każdy" class="btn btn-primary btn-block" data-toggle="tooltip" data-placement="left"
-                   title="sprawdź każdą krotkę oddzielnie - zajęte już pola zmienią swój kolor tła na jasnoczerwony">-->
         </div>
 
 
@@ -96,7 +92,7 @@ if (!isset($_SESSION['is_logged_in_admin'])) {
 
             </table>
         </div>
-        <input type="submit" name="submit" value="zatwierdź" class="button">
+        <input type="submit" name="submit" value="zatwierdź" class="btn btn-primary btn-block">
 
     </form>
 </div>

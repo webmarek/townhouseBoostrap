@@ -36,9 +36,9 @@ body {
 
 #adminNr {
     position  : fixed;
-    top       : 2em;
+    top       : 20em;
     right     : 2em;
-    font-size : .4em;
+    font-size : .6em;
 }
 
 .carouselContainer {
@@ -108,25 +108,41 @@ $listSizes : 18px 16px 14px 13px 12px 11px;
             font-size : #{nth($listSizes, $i)};
         }
     }
+
     table {
         font-size : 0.7em;
         overflow  : hidden;
     }
 
-    .hiddenMoustache{
-        display: none;
+    .hiddenMoustache {
+        display : none;
     }
+
+    select {
+        width : 8em;
+    }
+
 }
 
-.tableContainer{
-    overflow-x: auto;
+.tableContainer {
+    overflow-x : auto;
 }
 
-.alertLogin{
-    font-size: .9em;
+.alertLogin {
+    font-size : .9em;
 }
 
-select{
-    padding: .2em;
-    width: 15em;
+select {
+    padding : .2em;
+    width   : 15em;
+}
+
+form .btn {
+    margin : .7em 0;
+}
+
+@media (max-width : 1600px) {
+    #adminNr {
+        display : none;
+    }
 }

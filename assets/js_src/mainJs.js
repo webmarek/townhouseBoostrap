@@ -3,8 +3,29 @@
  */
 $(document).ready(function () {
 
-	var $button = $(".btnJqUi");
+    var myApp = {
+        adminNr: {
+            distance: 100,
+            speed: 1500
+        }
+    };
 
-	$button.button();
+    var move = function move() {
+        $("#adminNr").animate({
+            "right": "+=" + myApp.adminNr.distance + "px"
+        }, myApp.adminNr.speed)
+            .animate({
+                "top": "+=" + myApp.adminNr.distance + "px"
+            }, myApp.adminNr.speed)
+            .animate({
+                "right": "-=" + myApp.adminNr.distance + "px"
+            }, myApp.adminNr.speed)
+            .animate({
+                "top": "-=" + myApp.adminNr.distance + "px"
+            }, myApp.adminNr.speed, function () {
+                move();
+            });
+    };
 
+    move();
 });
