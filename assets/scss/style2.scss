@@ -3,13 +3,10 @@ $basicBackgroundColor : #343434;
 
 $generalWidth : 100%;
 
-@import "__reset.scss";
-
 %autoMrgHrzn {
     margin-left  : auto;
     margin-right : auto;
 }
-
 body {
     font-family : 'Cherry Swash', sans-serif;
 }
@@ -85,7 +82,6 @@ a {
     box-sizing      : border-box;
     z-index         : 999;
 }
-
 #scrollup {
     right : 50px;
 }

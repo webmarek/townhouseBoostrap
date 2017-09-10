@@ -7,10 +7,12 @@
     <meta name="description" content="Portal for inhabitants of The Townhouse">
     <meta name="author" content="Marek Kamiński">
     <title>KamienicaMVC</title>
+
+    <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/__reset.css">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">-->
-    <!--these ones (above and below) are optional - we use them intechangeably, wheteher on production or on developing-->
+    <!--these ones (above and below) are optional - we use them intechangeably, whether on production or on developing-->
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/bootstrap.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Cherry+Swash&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Cherry+Swash&subset=latin,latin-ext' type='text/css'>
     <link rel="stylesheet" href="<?php echo ROOT_PATH; ?>assets/css/style2.css">
 
 </head>

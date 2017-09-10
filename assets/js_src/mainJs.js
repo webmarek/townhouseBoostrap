@@ -10,7 +10,7 @@ $(document).ready(function () {
         }
     };
 
-    var move = function move() {
+    /*var move = function move() {
         $("#adminNr").animate({
             "right": "+=" + myApp.adminNr.distance + "px"
         }, myApp.adminNr.speed)
@@ -27,5 +27,5 @@ $(document).ready(function () {
             });
     };
 
-    move();
+    move();*/
 });

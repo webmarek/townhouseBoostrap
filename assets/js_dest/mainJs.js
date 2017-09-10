@@ -1,1 +1,1 @@
-$(document).ready(function(){var n={adminNr:{distance:100,speed:1500}};!function a(){$("#adminNr").animate({right:"+="+n.adminNr.distance+"px"},n.adminNr.speed).animate({top:"+="+n.adminNr.distance+"px"},n.adminNr.speed).animate({right:"-="+n.adminNr.distance+"px"},n.adminNr.speed).animate({top:"-="+n.adminNr.distance+"px"},n.adminNr.speed,function(){a()})}()});
+$(document).ready(function(){});
